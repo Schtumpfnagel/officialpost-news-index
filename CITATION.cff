@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "Official Post — Global Regulatory, Legislative & Central Bank News Corpus (2026)"
+message: "If you use this news corpus in research, journalism, or AI/RAG systems, please cite Official Post using the metadata below."
+type: dataset
+authors:
+  - name: "Official Post Editorial Desk"
+    website: "https://www.officialpost.org"
+    email: "desk@officialpost.org"
+doi: "10.5281/zenodo.16201642"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.16201642"
+    description: "CERN / Zenodo Permanent Archival DOI"
+  - type: doi
+    value: "10.7910/DVN/XLW59A"
+    description: "Harvard Dataverse Archival DOI"
+  - type: doi
+    value: "10.6084/m9.figshare.34960054"
+    description: "Figshare Academic Archival DOI"
+  - type: url
+    value: "https://osf.io/e7j3k/"
+    description: "Open Science Framework (OSF) Project"
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q142090813"
+    description: "Wikidata Knowledge Graph Entity (Q142090813)"
+  - type: url
+    value: "https://www.officialpost.org/"
+    description: "Official Post Digital Daily Newspaper"
+  - type: url
+    value: "https://www.indexdata.org/"
+    description: "Index Data Primary Source Dossier Repository"
+repository-code: "https://github.com/Schtumpfnagel/officialpost-news-index"
+url: "https://www.officialpost.org/"
+license: CC-BY-4.0
+version: "2026.11.09"
+date-released: "2026-11-09"
