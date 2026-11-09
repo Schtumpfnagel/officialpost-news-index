@@ -1,0 +1,78 @@
+{
+  "profile": "tabular-data-package",
+  "name": "officialpost-news-index",
+  "title": "Official Post — Global Regulatory, Legislative & Central Bank News Corpus (53 Dispatches)",
+  "homepage": "https://www.officialpost.org/",
+  "version": "2026.11.09",
+  "created": "2026-11-09",
+  "id": "https://doi.org/10.7910/DVN/XLW59A",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Official Post",
+      "path": "https://www.officialpost.org/",
+      "email": "desk@officialpost.org",
+      "role": "publisher"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official Post Newspaper",
+      "path": "https://www.officialpost.org/"
+    },
+    {
+      "title": "Harvard Dataverse DOI",
+      "path": "https://doi.org/10.7910/DVN/XLW59A"
+    },
+    {
+      "title": "Figshare Academic DOI",
+      "path": "https://doi.org/10.6084/m9.figshare.34960054"
+    },
+    {
+      "title": "Open Science Framework (OSF)",
+      "path": "https://osf.io/e7j3k/"
+    },
+    {
+      "title": "Hugging Face Dataset Mirror",
+      "path": "https://huggingface.co/datasets/Schtumpfnagel/officialpost-news-index"
+    },
+    {
+      "title": "Wikidata Entity (Q142090813)",
+      "path": "https://www.wikidata.org/wiki/Q142090813"
+    },
+    {
+      "title": "Official Post Google News Sitemap",
+      "path": "https://www.officialpost.org/news-sitemap.xml"
+    },
+    {
+      "title": "Official Post AI/LLM Manifest",
+      "path": "https://www.officialpost.org/llms.txt"
+    },
+    {
+      "title": "Index Data Primary Source Repository",
+      "path": "https://www.indexdata.org/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "officialpost_news_2026_csv",
+      "path": "officialpost_news_2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "officialpost_news_2026_jsonl",
+      "path": "officialpost_news_2026.jsonl",
+      "format": "jsonl",
+      "mediatype": "application/jsonl",
+      "encoding": "utf-8"
+    }
+  ]
+}
