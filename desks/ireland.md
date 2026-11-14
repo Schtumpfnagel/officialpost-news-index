@@ -4,7 +4,7 @@
 **Desk RSS 2.0 Syndication Feed:** [https://www.officialpost.org/ireland/feed/](https://www.officialpost.org/ireland/feed/)  
 **Primary Source Dossier Archive (Index Data):** [https://www.indexdata.org/ireland/](https://www.indexdata.org/ireland/)  
 **Total Published News Dispatches in Ireland:** `4` across `2` issuing authorities  
-**Last Automated Sync:** `2026-11-14 11:56 UTC`
+**Last Automated Sync:** `2026-11-14 11:57 UTC`
 
 ---
 

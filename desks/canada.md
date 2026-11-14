@@ -4,7 +4,7 @@
 **Desk RSS 2.0 Syndication Feed:** [https://www.officialpost.org/canada/feed/](https://www.officialpost.org/canada/feed/)  
 **Primary Source Dossier Archive (Index Data):** [https://www.indexdata.org/canada/](https://www.indexdata.org/canada/)  
 **Total Published News Dispatches in Canada:** `1` across `1` issuing authorities  
-**Last Automated Sync:** `2026-11-14 11:56 UTC`
+**Last Automated Sync:** `2026-11-14 11:57 UTC`
 
 ---
 

@@ -4,7 +4,7 @@
 **Desk RSS 2.0 Syndication Feed:** [https://www.officialpost.org/international/feed/](https://www.officialpost.org/international/feed/)  
 **Primary Source Dossier Archive (Index Data):** [https://www.indexdata.org/international/](https://www.indexdata.org/international/)  
 **Total Published News Dispatches in International:** `12` across `7` issuing authorities  
-**Last Automated Sync:** `2026-11-14 11:56 UTC`
+**Last Automated Sync:** `2026-11-14 11:57 UTC`
 
 ---
 

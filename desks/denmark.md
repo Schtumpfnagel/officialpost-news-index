@@ -4,7 +4,7 @@
 **Desk RSS 2.0 Syndication Feed:** [https://www.officialpost.org/denmark/feed/](https://www.officialpost.org/denmark/feed/)  
 **Primary Source Dossier Archive (Index Data):** [https://www.indexdata.org/denmark/](https://www.indexdata.org/denmark/)  
 **Total Published News Dispatches in Denmark:** `5` across `3` issuing authorities  
-**Last Automated Sync:** `2026-11-14 11:56 UTC`
+**Last Automated Sync:** `2026-11-14 11:57 UTC`
 
 ---
 

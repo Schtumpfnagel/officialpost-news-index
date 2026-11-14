@@ -4,7 +4,7 @@
 **Desk RSS 2.0 Syndication Feed:** [https://www.officialpost.org/european-union/feed/](https://www.officialpost.org/european-union/feed/)  
 **Primary Source Dossier Archive (Index Data):** [https://www.indexdata.org/european-union/](https://www.indexdata.org/european-union/)  
 **Total Published News Dispatches in European Union:** `12` across `3` issuing authorities  
-**Last Automated Sync:** `2026-11-14 11:56 UTC`
+**Last Automated Sync:** `2026-11-14 11:57 UTC`
 
 ---
 

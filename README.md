@@ -69,7 +69,7 @@ dataset_info:
 **Google News XML Sitemap:** [https://www.officialpost.org/news-sitemap.xml](https://www.officialpost.org/news-sitemap.xml)  
 **Global RSS 2.0 Syndication Feed:** [https://www.officialpost.org/feed/](https://www.officialpost.org/feed/)  
 **AI / LLM Corpus Manifests:** [https://www.officialpost.org/llms.txt](https://www.officialpost.org/llms.txt) | [https://www.officialpost.org/llms-full.txt](https://www.officialpost.org/llms-full.txt)  
-**Last Automated Sync:** `2026-11-14 11:56 UTC`  
+**Last Automated Sync:** `2026-11-14 11:57 UTC`  
 **Total Published News Dispatches:** `127` across `15` jurisdictions and `63` issuing authorities
 
 ---

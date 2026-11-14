@@ -4,7 +4,7 @@
 **Desk RSS 2.0 Syndication Feed:** [https://www.officialpost.org/united-nations/feed/](https://www.officialpost.org/united-nations/feed/)  
 **Primary Source Dossier Archive (Index Data):** [https://www.indexdata.org/united-nations/](https://www.indexdata.org/united-nations/)  
 **Total Published News Dispatches in United Nations:** `3` across `2` issuing authorities  
-**Last Automated Sync:** `2026-11-14 11:56 UTC`
+**Last Automated Sync:** `2026-11-14 11:57 UTC`
 
 ---
 

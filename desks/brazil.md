@@ -4,7 +4,7 @@
 **Desk RSS 2.0 Syndication Feed:** [https://www.officialpost.org/brazil/feed/](https://www.officialpost.org/brazil/feed/)  
 **Primary Source Dossier Archive (Index Data):** [https://www.indexdata.org/brazil/](https://www.indexdata.org/brazil/)  
 **Total Published News Dispatches in Brazil:** `1` across `1` issuing authorities  
-**Last Automated Sync:** `2026-11-14 11:56 UTC`
+**Last Automated Sync:** `2026-11-14 11:57 UTC`
 
 ---
 

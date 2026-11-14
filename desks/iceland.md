@@ -4,7 +4,7 @@
 **Desk RSS 2.0 Syndication Feed:** [https://www.officialpost.org/iceland/feed/](https://www.officialpost.org/iceland/feed/)  
 **Primary Source Dossier Archive (Index Data):** [https://www.indexdata.org/iceland/](https://www.indexdata.org/iceland/)  
 **Total Published News Dispatches in Iceland:** `2` across `1` issuing authorities  
-**Last Automated Sync:** `2026-11-14 11:56 UTC`
+**Last Automated Sync:** `2026-11-14 11:57 UTC`
 
 ---
 
