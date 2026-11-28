@@ -1,0 +1,594 @@
+{
+  "upload_type": "dataset",
+  "title": "Official Post — Global Regulatory, Legislative & Central Bank News Corpus (2026) — 285 Dispatches",
+  "creators": [
+    {
+      "name": "Official Post Editorial Desk",
+      "affiliation": "Official Post (officialpost.org)"
+    }
+  ],
+  "description": "<p>Automated open news corpus (CSV, JSONL, Frictionless Data Package, Wikidata QuickStatements, and per-jurisdiction Markdown desk directories) of <a href='https://www.officialpost.org/'><strong>Official Post</strong></a> (https://www.officialpost.org), indexing <strong>285</strong> plain-English regulatory, legislative, and central bank news dispatches across <strong>20</strong> jurisdictions and <strong>107</strong> issuing authorities, reported directly from primary documents in <a href='https://www.indexdata.org/'>Index Data</a>. Mirrored across Harvard Dataverse (<a href='https://doi.org/10.7910/DVN/XLW59A'>10.7910/DVN/XLW59A</a>), Figshare (<a href='https://doi.org/10.6084/m9.figshare.34960054'>10.6084/m9.figshare.34960054</a>), OSF (<a href='https://osf.io/e7j3k/'>https://osf.io/e7j3k/</a>), Hugging Face (<a href='https://huggingface.co/datasets/Schtumpfnagel/officialpost-news-index'>officialpost-news-index</a>), GitHub (<a href='https://github.com/Schtumpfnagel/officialpost-news-index'>officialpost-news-index</a>), and Wikidata (<a href='https://www.wikidata.org/wiki/Q142090813'>Q142090813</a>).</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "Official Post",
+    "regulatory news",
+    "legislation",
+    "central banks",
+    "journalism",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.officialpost.org/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/about/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://www.officialpost.org/editorial-policy/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "https://www.officialpost.org/news-sitemap.xml",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "https://www.officialpost.org/llms.txt",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "https://www.officialpost.org/llms-full.txt",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-technicalnote"
+    },
+    {
+      "identifier": "https://doi.org/10.7910/DVN/XLW59A",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://doi.org/10.6084/m9.figshare.34960054",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://osf.io/e7j3k/",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/Schtumpfnagel/officialpost-news-index",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/Schtumpfnagel/officialpost-news-index",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://www.wikidata.org/wiki/Q142090813",
+      "relation": "isDescribedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://www.indexdata.org/",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23612006",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/australia/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/austria/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/belgium/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/brazil/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/canada/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/denmark/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/european-union/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/france/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/germany/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/iceland/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/international/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/ireland/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/japan/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/liechtenstein/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/philippines/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/saudi-arabia/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/ukraine/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/united-kingdom/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/united-nations/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/united-states/",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.officialpost.org/world-bank-launches-strategic-roadmap-to-modernize-urban-transport-across-nigerian-cities/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/u-s-commerce-department-orders-retn-to-cease-all-network-operations-by-2027/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-judiciary-publishes-comprehensive-guide-to-domestic-abuse-rules-in-family-courts/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/high-court-rules-home-office-unfairly-denied-travel-support-to-gazan-student/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/court-of-appeal-rules-charity-discriminated-against-christian-job-applicant/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-issues-new-code-of-practice-for-trade-union-workplace-access/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-to-launch-voluntary-oversight-regime-for-sustainability-assurance-providers/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/scor-and-japan-post-insurance-finalize-major-reinsurance-and-risk-transfer-agreement/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/thales-enters-exclusive-talks-to-acquire-lumibird-for-european-photonics-expansion/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/white-house-directs-justice-department-to-accelerate-federal-death-penalty-cases/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/senior-judge-outlines-framework-for-responsible-ai-use-in-uk-legal-practice/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-introduces-new-reporting-rules-for-international-controlled-transactions/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-finalizes-new-code-of-practice-for-private-parking-operators/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-to-create-new-standalone-stalking-offence-with-14-year-maximum-penalty/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-unveils-strategic-roadmap-for-hydrogen-propulsion-manufacturing-leadership/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-competition-watchdog-finds-systemic-failures-in-private-dental-care-market/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-unveils-five-year-strategic-plan-for-national-road-network-upgrades/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/philippines-launches-major-coconut-replanting-drive-and-tightens-import-safeguards/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/ep-group-secures-majority-control-of-fnac-darty-following-successful-takeover-bid/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/eu-auditors-find-oversight-gaps-in-development-funding-managed-by-external-partners/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/nhtsa-proposes-two-year-delay-for-mandatory-automatic-emergency-braking-standards/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/new-executive-order-mandates-contractor-coordination-on-congressional-information-requests/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/un-security-council-renews-abyei-peacekeeping-mission-amid-new-political-benchmarks/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/high-court-authorizes-surgery-for-toddler-with-disorder-of-sexual-development/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/raheem-sterling-receives-suspended-sentence-for-dangerous-driving-and-drug-offences/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/eu-court-rules-commission-failed-to-update-timeline-for-end-the-cage-age-initiative/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/eu-finalizes-new-payment-rules-to-combat-fraud-and-expand-open-banking-access/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/ecb-warns-bulgarias-proposed-excess-profits-tax-could-undermine-financial-stability/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/fcc-sets-april-2027-start-date-for-auction-of-upper-c-band-wireless-licenses/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/u-s-adds-seven-southeast-asian-firms-to-entity-list-over-advanced-computing-diversion/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/sec-proposes-direct-federal-control-over-consolidated-audit-trail-market-oversight/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-sets-regional-rollout-schedule-for-national-landlord-database/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/senate-proposes-p251-billion-agriculture-budget-to-shield-farmers-from-super-el-nio/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/new-irish-bill-mandates-human-oversight-for-ai-in-public-services/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/sanofi-to-acquire-insmed-for-41-billion-to-expand-rare-respiratory-disease-portfolio/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/philippines-denies-exclusive-import-deal-with-u-s-amid-food-security-concerns/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/senate-launches-investigation-into-p700-million-rice-smuggling-attempt-in-davao-and-bataan/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/eu-launches-safeguard-investigation-into-rising-imports-of-composite-materials/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/tcl-electronics-moves-to-acquire-sony-home-entertainment-business-in-global-deal/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/eu-adds-rinaldo-nazzaro-to-terrorism-sanctions-list-over-links-to-the-base/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/scientists-evaluate-optimal-design-for-europes-next-generation-einstein-telescope/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/cms-proposes-major-2028-policy-overhaul-for-medicare-advantage-and-prescription-drug-plans/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/fcc-proposes-strict-vetting-rules-for-new-broadband-funding-under-2025-act/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/fcc-proposes-new-labeling-and-surveillance-rules-for-cyber-trust-mark-program/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/labor-department-finalizes-new-rules-for-classifying-independent-contractors/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/un-refugee-agency-approves-7-1-billion-2027-budget-amid-major-operational-overhaul/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/high-court-ruling-on-liquidator-liability-caps-faces-court-of-appeal-challenge/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/holiday-park-operator-and-contractor-sentenced-after-fatal-ceiling-collapse/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-updates-russia-sanctions-list-with-new-variations-and-corrections/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/usda-warns-of-potential-pork-supply-shortage-in-philippines-for-early-2027/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/christian-dior-board-approves-agache-merger-and-planned-corporate-simplification/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/argan-shareholders-approve-cross-border-merger-with-wdp/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/world-bank-case-study-highlights-ukraines-diia-as-global-model-for-digital-governance/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-tax-authority-hits-record-revenue-as-audit-watchdog-flags-persistent-fraud-risks/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-judiciary-updates-sentencing-compendium-to-reflect-new-legal-framework/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/tribunal-rules-government-must-confirm-if-apple-received-technical-capability-notice/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/high-court-rules-litigants-in-person-can-recover-costs-for-ai-legal-research-tools/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-marine-investigators-release-final-report-on-bayesian-yacht-sinking-tragedy/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/ecb-warns-of-financial-stability-risks-from-ai-valuations-and-sovereign-debt/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/ecb-sets-2027-29-supervisory-roadmap-to-tackle-geopolitical-and-digital-risks/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/eu-auditors-criticize-slow-regulatory-response-to-forever-chemicals-risks/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/eu-court-rules-high-level-agri-food-policies-do-not-require-habitats-directive-assessment/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/fincen-proposes-new-customer-due-diligence-rules-for-financial-institutions/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/genetically-modified-soy-adoption-in-brazil-linked-to-indirect-deforestation-risks/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/faa-orders-urgent-inspections-for-boeing-737-autothrottle-system-risks/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/hhs-finalizes-hipaa-privacy-rule-overhaul-to-boost-care-coordination/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-treasury-updates-cryptoasset-rules-to-clarify-stablecoin-promotion-and-safeguarding/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-audit-watchdog-scrutinizes-bbc-progress-on-700-million-savings-plan/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/bbc-hits-savings-targets-early-but-faces-growing-financial-deficits/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/judge-rules-courts-lack-power-to-authorize-landlords-to-force-entry-into-tenant-homes/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-updates-asylum-policy-for-nigerian-women-victims-of-human-trafficking/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/uk-government-rejects-stormont-brake-bid-to-block-new-eu-customs-regulations/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/carmila-unveils-five-year-growth-plan-and-strategic-merger-with-italian-retail-giant-igd/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/sanofi-receives-us-approval-for-infilbray-to-treat-rare-type-3-gaucher-disease/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/groupe-adp-secures-regulatory-approval-for-eight-year-investment-and-tariff-plan/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/eu-antimicrobial-use-declines-but-remains-off-track-for-2030-health-targets/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/irs-finalizes-automatic-enrollment-rules-for-retirement-plans-under-secure-2-0-act/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/world-bank-report-identifies-critical-funding-gaps-for-small-businesses-worldwide/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/medicare-part-b-premiums-and-deductibles-set-to-increase-for-2027/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://www.officialpost.org/fcc-sets-december-2026-compliance-deadline-for-new-anti-sim-swap-security-rules/",
+      "relation": "references",
+      "resource_type": "publication-report"
+    }
+  ]
+}
